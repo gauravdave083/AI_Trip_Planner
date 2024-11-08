@@ -20,6 +20,8 @@ import { FcGoogle } from "react-icons/fc";
 import { useGoogleLogin } from '@react-oauth/google';
 import axios, { Axios } from "axios"
 import { useNavigate } from "react-router-dom"
+import Header from '@/components/custom/Header';
+import Footer from '@/view-trip/components/Footer';
 
 
 function CreateTrip() {
@@ -185,7 +187,7 @@ function CreateTrip() {
                </DialogHeader>
           </DialogContent>
      </Dialog>
-
+     
      </div>
      )  
 }
